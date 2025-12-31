@@ -1,0 +1,9 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Arial', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; color: #fff; }
+.container { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+.main-title { font-size: 4rem; font-weight: bold; animation: slideDown 0.8s ease-out; }
+.year-display { font-size: 5rem; animation: zoomIn 1s ease-out 0.3s both; }
+.continue-btn { background: rgba(255,255,255,0.2); color: #fff; border: 2px solid #fff; padding: 12px 40px; cursor: pointer; border-radius: 50px; }
+@keyframes slideDown { from { opacity: 0; transform: translateY(-50px); } to { opacity: 1; } }
+@keyframes zoomIn { from { transform: scale(0.5); } to { transform: scale(1); } }
