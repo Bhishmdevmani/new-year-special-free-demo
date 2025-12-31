@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year 2026 - Special Free Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root">
+        <!-- Main Landing Page -->
+        <div class="container landing-page" id="landingPage">
+            <div class="content-center">
+                <h1 class="main-title">HAPPY NEW YEAR!</h1>
+                <h2 class="year-display">2026</h2>
+                <p class="tagline">See what i made for you</p>
+                <p class="subtitle">STARTING THE JOURNEY</p>
+                <img class="celebration-icon" src="https://img.icons8.com/fluency/96/000000/gift.png" alt="celebrate">
+                <button class="continue-btn" id="continueBtn">CONTINUE</button>
+            </div>
+            <div class="background-decoration"></div>
+        </div>
+
+        <!-- Personalized Greeting Page -->
+        <div class="container greeting-page" id="greetingPage" style="display:none;">
+            <div class="greeting-content">
+                <h2 class="greeting-title">HAPPY NEW YEAR TO YOU <span id="userName">ANUSHKA</span>!</h2>
+                <p class="greeting-message">Thanks for being part of my 2025, now let's make 2026 even better!</p>
+                <div class="gift-box" id="giftBox">
+                    <img src="https://img.icons8.com/color/96/000000/gift.png" alt="Gift">
+                </div>
+                <p class="surprise-text">Continue to see more surprises!</p>
+                <p class="footer-text">MADE WITH CARE ✨</p>
+            </div>
+            <canvas id="confetti"></canvas>
+        </div>
+    </div>
+
+    <!-- Confetti canvas -->
+    <canvas id="canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
